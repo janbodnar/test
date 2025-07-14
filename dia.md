@@ -2,6 +2,14 @@
 ## Simple
 
 ```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+
+```mermaid
 graph LR
     A[Start] --> B[Step 1]
     B --> C[Step 2]
